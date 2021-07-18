@@ -1,0 +1,23 @@
+<div class="body-content">
+    <mat-toolbar class="logo">
+        <div class="desc">
+            <h1>Fy Cuisine</h1>
+            <br>
+            <p>RAZANAJAONA Tojonirina Finaritra IMTICIA3 <br> vous presentes les differentes recettes(Salées,Sucrées)
+                existantes à l'hotel Fy</p>
+        </div>
+    </mat-toolbar>
+</div>
+
+
+<mat-toolbar class="flex">
+    <span></span>
+    <span class="spacer"></span>
+    <button mat-button routerLink="">Accueil</button>
+    <button mat-button [matMenuTriggerFor]="menu">Recettes</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="/recettes-Salees">Recettes Salées</button>
+        <button mat-menu-item routerLink="/recettes-Sucrees">Recettes Sucrées</button>
+    </mat-menu>
+    <button mat-button routerLink="/contact">Contact</button>
+</mat-toolbar>

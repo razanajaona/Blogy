@@ -1,0 +1,91 @@
+h1{
+    color: rgb(255, 145, 0);
+}
+img{
+    width: 300px;
+    border-radius: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.content-main{
+    padding: 0 15%;
+}
+.content-main-list{
+    position: relative;
+    height: 4436px;
+}
+.content-main-description{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 23px 40px -40px black;
+}
+.phrase{
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+button{
+    margin: 10px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: 40%;
+    background:burlywood;
+    color: #fff;
+    left: 30%;
+}
+
+.content-main-list1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.content-main-list2{
+    position: absolute;
+    left: 325px;
+    top: 0px;
+}
+.content-main-list3{
+    position: absolute;
+    left: 0%;
+    top: 700px;
+}
+.content-main-list4{
+    position: absolute;
+    left: 325px;
+    top: 448px;
+}
+.content-main-list5{
+    position: absolute;
+    left: 0px;
+    top: 1150px;
+}
+.content-main-list6{
+    position: absolute;
+    left: 325px;
+    top: 1150px;
+}
+.content-main-list7{
+    position: absolute;
+    left: 0px;
+    top: 1600px;
+}
+.content-main-list8{
+    position: absolute;
+    left: 325px;
+    top: 1750px;
+}
+.content-main-list9{
+    position: absolute;
+    left: 50%;
+    top: 2200px;
+}
+
+button:hover{
+    background-color: rgb(255, 150, 12);
+}

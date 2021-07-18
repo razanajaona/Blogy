@@ -1,0 +1,19 @@
+.contact{
+    position: relative;
+    left: 40%;
+}
+h1{
+    color: rgb(255, 145, 0);
+}
+button{
+    background-color: rgb(237, 146, 28);
+}
+.input{
+    padding: 0 3em;
+}
+.contact1{
+    width: 200px;
+}
+body{
+    width: auto;
+}
