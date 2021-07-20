@@ -1,6 +1,6 @@
 .contact{
-    position: relative;
-    left: 40%;
+   margin: auto;
+   width: fit-content;
 }
 h1{
     color: rgb(255, 145, 0);
@@ -11,9 +11,11 @@ button{
 .input{
     padding: 0 3em;
 }
-.contact1{
-    width: 200px;
-}
 body{
     width: auto;
+}
+.contact1{
+    margin-bottom: 2em;
+    box-shadow: 0 23px 40px -40px black;
+    padding: 1em;
 }

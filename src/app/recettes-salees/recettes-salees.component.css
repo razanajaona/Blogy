@@ -7,15 +7,12 @@ img{
 }
 .content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .sidebar{
-    width: 350px;
+ 
     display: flex;
     flex-direction: column;
-}
-.content-main{
-    padding: 0 15%;
 }
 .content-main-list{
     position: relative;
@@ -88,4 +85,23 @@ button{
 
 button:hover{
     background-color: rgb(255, 150, 12);
+}
+.sidebar-widget-sidebar{
+    height: 500px;
+    box-shadow: 0 23px 40px -40px black;
+    margin: 3em 0
+}
+ol{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(220, 134, 21);
+    padding-bottom: 1em;
+}
+.sidebar-widget{
+    margin-bottom: 3em;
+    box-shadow: 0 23px 40px -40px black;
+}
+.apropos{
+    width: 200px;
+    padding: 1em;
 }
